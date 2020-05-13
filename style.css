@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;	
+	width: 100vw;
+	height: 100vh;
+	background-color: #21D4FD;
+	background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+
+.app {
+	height: 100%;
+	width: 100%;
+	display: flex;	
+	justify-content: center;
+	flex-direction: column;
+	color: #ffffff;	
+}
+
+.x, .y {		
+	display: flex;	
+}
+
+#x, #y {
+	width: 70px;		
+}
+
+
+.devide {
+	width: 50px;
+}
+
+.coords {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	text-align: center;	
+	font-size: 40px;	
+	line-height: 40px;
+}
+
+#character {
+	position: absolute;
+	width: 42px;
+	height: 42px;
+	background: #FF416C;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+}
+
+
+
